@@ -19,6 +19,8 @@
 		B21DCCED12C2CCDC0023EF9E /* flake.m in Sources */ = {isa = PBXBuildFile; fileRef = B21DCCEA12C2CCDC0023EF9E /* flake.m */; };
 		B21DCCF012C2CCEB0023EF9E /* nrand.c in Sources */ = {isa = PBXBuildFile; fileRef = B21DCCEE12C2CCEB0023EF9E /* nrand.c */; };
 		B21DCCF112C2CCEB0023EF9E /* nrand.h in Headers */ = {isa = PBXBuildFile; fileRef = B21DCCEF12C2CCEB0023EF9E /* nrand.h */; };
+		B21DCD0012C2CD7B0023EF9E /* MyGlView.h in Headers */ = {isa = PBXBuildFile; fileRef = B21DCCFE12C2CD7B0023EF9E /* MyGlView.h */; };
+		B21DCD0112C2CD7B0023EF9E /* MyGlView.m in Sources */ = {isa = PBXBuildFile; fileRef = B21DCCFF12C2CD7B0023EF9E /* MyGlView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B21DCCEA12C2CCDC0023EF9E /* flake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flake.m; sourceTree = "<group>"; };
 		B21DCCEE12C2CCEB0023EF9E /* nrand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nrand.c; sourceTree = "<group>"; };
 		B21DCCEF12C2CCEB0023EF9E /* nrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nrand.h; sourceTree = "<group>"; };
+		B21DCCFE12C2CD7B0023EF9E /* MyGlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGlView.h; sourceTree = "<group>"; };
+		B21DCCFF12C2CD7B0023EF9E /* MyGlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGlView.m; sourceTree = "<group>"; };
 		F50079790118B23001CA0E54 /* GlFlakeSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlFlakeSaverView.h; sourceTree = "<group>"; };
 		F500797A0118B23001CA0E54 /* GlFlakeSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlFlakeSaverView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +92,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B21DCCFE12C2CD7B0023EF9E /* MyGlView.h */,
+				B21DCCFF12C2CD7B0023EF9E /* MyGlView.m */,
 				B21DCCE812C2CCDC0023EF9E /* Drawable.h */,
 				B21DCCE912C2CCDC0023EF9E /* flake.h */,
 				B21DCCEA12C2CCDC0023EF9E /* flake.m */,
@@ -145,6 +151,7 @@
 				B21DCCEB12C2CCDC0023EF9E /* Drawable.h in Headers */,
 				B21DCCEC12C2CCDC0023EF9E /* flake.h in Headers */,
 				B21DCCF112C2CCEB0023EF9E /* nrand.h in Headers */,
+				B21DCD0012C2CD7B0023EF9E /* MyGlView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +231,7 @@
 				8D255ACC0486D3F9007BF209 /* GlFlakeSaverView.m in Sources */,
 				B21DCCED12C2CCDC0023EF9E /* flake.m in Sources */,
 				B21DCCF012C2CCEB0023EF9E /* nrand.c in Sources */,
+				B21DCD0112C2CD7B0023EF9E /* MyGlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
