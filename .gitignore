@@ -1,0 +1,5 @@
+.DS_Store
+GlFlakeSaver.xcodeproj/*.pbxuser
+GlFlakeSaver.xcodeproj/*.perspectivev3
+*.pch
+build/*
