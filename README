@@ -1,0 +1,9 @@
+
+This is a simple OpenGL screensaver for OSX in cocoa.
+
+It uses a very simple custom NSOpenGLView, as a subview of a ScreenSaverView/
+
+It might be a handy starting point for other projects though.
+
+I also think its sort of purdy.
+
